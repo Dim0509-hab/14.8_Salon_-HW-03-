@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Массив пользователей (для примера)
+// Массив пользователей 
 $users = [
     'admin' => [
         'password' => password_hash('12345', PASSWORD_DEFAULT),

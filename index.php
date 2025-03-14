@@ -22,7 +22,7 @@ if(!$auth) {
     <form action="process.php" method="post">
     <input name="login" type="text" placeholder="Логин" required>
     <input name="password" type="password" placeholder="Пароль" required>
-    <input name="birthdate" type="date" placeholder="Дата рождения" required>
+  
     <input name="submit" type="submit" value="Войти">
 </form>
 </div>
@@ -128,8 +128,6 @@ updateCountdown();
 </div>
 <?php endif; ?>
 
-
-
     <h2>Контактная информация:</h2>
 <div class="contacts">
     <p>Адрес: г. Уфа, ул. Центральная, 123</p>
@@ -181,7 +179,6 @@ updateCountdown();
     margin-bottom: 10px;
 }
 
-
 .offers {
  display: flex;
  flex-wrap: wrap;
@@ -211,13 +208,6 @@ updateCountdown();
 .offer ul {
  list-style: disc;
  padding-left: 20px;
-}
-
-@media (max-width: 768px) {
-.offer {
- flex: 0 0 100%;
- margin: 10px 0;
- }
 }
 
 .auth-form {
@@ -282,35 +272,15 @@ input {
 .photo-caption:hover {
     transform: scale(1.05);
 }
-
-@media (max-width: 768px) {
-    .photo-caption {
-        flex: 0 0 100%;
-        margin: 0;
-    }
-    
-    .photo-caption p {
-        font-size: 12px;
-    }
-}
-
     body {
         font-family: Arial, sans-serif;
         margin: 20px;
-    }
-    
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;ы
-    }
-    
+    }    
     .gallery img {
         width: 90%;
         margin: 5px;
         border-radius: 5px;
-    }
-    
+    }    
     .contacts {
         border: 1px solid #ddd;
         padding: 10px;
