@@ -41,30 +41,3 @@ function getCurrentUser() {
 }
 
 
-
-// Пример использования функций:
-/*
-require 'db.php';
-require 'functions.php';
-
-// Получаем список всех пользователей
-$users = getUsersList();
-
-// Проверяем существование пользователя
-if (existsUser('test_login')) {
-    echo 'Пользователь существует';
-}
-
-// Проверяем пароль пользователя
-if (checkPassword('test_login', 'test_password')) {
-    echo 'Пароль верный';
-}
-
-// Получаем текущего пользователя
-$currentUser = getCurrentUser();
-if ($currentUser) {
-    echo 'Привет, ' . $currentUser;
-} else {
-    echo 'Вы не авторизованы';
-}
-*/
